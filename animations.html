@@ -1,0 +1,58 @@
+<!--Program to demonstrate the animations example-->
+<!doctype html>
+<html>
+    <head>
+        <title>Animations Example</title>
+        <style type="text/css">
+            @keyframes Bhanu{
+                0%{
+                   background-color: pink;
+                color:aqua; 
+                top:0px;
+                left:0px;
+                }
+                25%{
+                  background-color:red;
+                color:aqua;  
+                top:100px;
+                left:100px; 
+                }
+                50%{
+                    background-color: blue;
+                    color:white;
+                    top:150px;
+                    left:150px;
+
+                }
+                75%{
+                    background-color: chartreuse;
+                    color:aqua;
+                    top:200px;
+                    left:200px;
+                }
+                100%{
+                    background-color: goldenrod;
+                    color:blue;
+                    top:250px;
+                    left:250px;
+                }
+            }
+            div{
+                width:200px;
+                height:200px;
+                background-color: pink;
+                color:aqua;
+                animation-name:Bhanu;
+                animation-duration:5s;
+                position:relative;
+                top:0px;
+                left:0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Hi Welcome to my home!
+        </div>
+    </body>
+</html>

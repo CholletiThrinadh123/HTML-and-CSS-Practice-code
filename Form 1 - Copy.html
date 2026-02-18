@@ -1,0 +1,101 @@
+<!--program to demonstrate the forms-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bhanu Registration Form</title>
+
+    </head>
+    <body>
+        <h1>Welcome to Registration form</h1>
+        <form autocomplete ="on">
+            <label for ="un" >Username:</label><sup>*</sup>
+        <input id="un" name="uname"type="text" required placeholder="Letters+digit" autofocus/><br/><br/>
+         <label for="fn">FullName:</label>
+        <input id ="fn" name="fullname" type="text"/><br/><br/>
+        <label for="pwd">Password:</label><sup>*</sup>
+        <input id="pwd" name="pword" type="password"  value="Bhanu" readonly/><br/><br/>
+        
+        Gender:
+        <input type="radio"  id="m" gname="male"/>
+        <label for="m">Male</label>
+        <input type="radio" id="f" gname="female"/>
+        <label for ="f">Female</label><br/><br/>
+        <label>languages known:</label>
+        <input type="Checkbox" id="t"/><label for ="t">Telugu</label>
+        <input type="Checkbox" id="e"/><label for="e">English</label>
+        <input type="Checkbox" id="h"/><label for="h">Hindi</label>
+        <br/>
+        <br/>
+        
+
+        <label>Email:</label>
+        <input type="email" id="em"/><br/><br/>
+
+        <label>Mobile No:</label>
+        <input type="tel" id="mbl" name="mobile" placeholder="+91 9347902827"/><br/><br/>
+
+        
+        <br/>
+        <br/>
+        <label for="DOB">DOB:</label>
+        <input type="date" id="DOB" name="Birth" max="2010-12-31"/ min="2000-01-01"/><br/><br/>
+
+        <label for="tob">Time of Birth</label>
+        <input type="time" id="tob" name="birthtime" ><br/><br/><br/>
+
+        <input type="datetime-local"/>
+
+        <label for="profile link">Profile:</label>
+        <input type="URL" id="Profile link" name="profile/>" <br/><br/>
+
+        <label>Favourite color</label>
+        <input type="color" id="clr" name="color"/>
+<br/>
+<br/>
+        <label>Start month:</label>
+        <input type="month"/>
+        <br/><br/>
+
+        <label for="age">How many years old you are:</label>
+        <input type="number" id="age" name="years"/><br/>
+        <label for="age">How many years old you are:</label>
+        <input type="range" id="age" name="years" min="0" max="100"/>
+        <br><br/><br/>
+
+        <label id="cv">Upload file:</label>
+        <input type="file" id="cv" name="resume" multiple/><br/><br/>
+
+
+        <label for="cnty">Country:</label>
+        <select id="cnty" name="country" multiple>
+            <option>India</option>
+            <option>US</option>
+            <option>UK</option>
+            <option>Bangladesh</option>
+            <option>Pakistan</option>
+            
+        </select><br/><br/>
+        <label for="clr">Choose the colour you want:</label>
+        <input list="clrs" id="clr" name="color"/>
+        <datalist id="clrs">
+            <option value="red"></option>
+            <option value="Blue"></option>
+            <option value="Black"></option>
+            <option value="Green"></option>
+        </datalist>
+
+        <br/><br/>
+        <label>Address:</label>
+        <textarea rows="3"></textarea>
+         <br/><br/><br/>
+        <input type="submit" value ="Login"/>
+        <input type="submit" value="reset"/>
+        <br/><br/><br/>
+
+        
+        
+        </form>
+
+        
+    </body>
+</html>

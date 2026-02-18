@@ -1,0 +1,38 @@
+/*This program demonstrates External type in CSS*/
+
+h1{
+ color:aqua;
+}
+
+*{
+    margin:0px;
+}
+/*body{
+    background-color:lightgray;
+    background-image:url("Face pic.jpg");
+    background-repeat:no-repeat;
+}
+*/
+p{
+    color:blueviolet;
+}
+
+#head1{
+   background-color:rgb(126, 111, 111);
+   border: width 10px;px;
+   border-style:solid;
+   border-color:blue;
+   border-top-style: double;
+   border-bottom-style:dotted;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-left: 100px;
+   padding-top:20px;
+   padding-right:20px;
+   padding-bottom:20px;
+   
+}
+
+.bhanu{
+    color:greenyellow
+}
